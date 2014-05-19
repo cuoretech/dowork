@@ -19,9 +19,9 @@ requires = [
     'pyramid_mailer'
     ]
 
-setup(name='Cuore-Web-page',
+setup(name='Cuore DoWork Project',
       version='0.0',
-      description='Cuore-Web-page',
+      description='Cuore Intranet Project',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
         "Programming Language :: Python",
@@ -38,9 +38,9 @@ setup(name='Cuore-Web-page',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="cuorewebpage",
+      test_suite="dowork",
       entry_points="""\
       [paste.app_factory]
-      main = cuorewebpage:main
+      main = dowork:main
       """,
       )
